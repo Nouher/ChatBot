@@ -1,0 +1,5 @@
+export const References=[
+    {referenceNumber:1, title:'Reference 1', authors:['authors1','authors2'],desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dolorum consequatur nihil dolor quas nesciunt ex praesentium! Corrupti culpa expedita laboriosam earum maiores sed! Tempore, nobis explicabo! Numquam, cum suscipit!'},
+    {referenceNumber:2, title:'Reference 2', authors:['authors1','authors2'],desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dolorum consequatur nihil dolor quas nesciunt ex praesentium! Corrupti culpa expedita laboriosam earum maiores sed! Tempore, nobis explicabo! Numquam, cum suscipit!'},
+    {referenceNumber:3, title:'Reference 3', authors:['authors1','authors2'],desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dolorum consequatur nihil dolor quas nesciunt ex praesentium! Corrupti culpa expedita laboriosam earum maiores sed! Tempore, nobis explicabo! Numquam, cum suscipit!'},
+]
