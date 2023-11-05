@@ -10,9 +10,9 @@ const Drawer = (props) => {
     return (
         <div className='inline-block'>
             <div className='px-1 cursor-pointer' onClick={() => { setOpen(!open) }}>
-                <div className="select-none flex items-center justify-center w-6 h-6 text-[#adc178] text-xs font-bold rounded-full border-2 border-gray-500">{props.referenceNumber}</div>
+                <div className="select-none flex items-center justify-center w-6 h-6 text-[#92aa83] text-xs font-bold rounded-full border-2 border-gray-500">{props.referenceNumber}</div>
             </div>
-            <div className={`fixed bg-[#fdfff9] top-0 right-0 z-40 h-screen p-4 px-6 overflow-y-auto transition-transform translate-x-full  w-80 dark:bg-gray-800 ${open ? 'transform-none' : ''}`} tabIndex="-1" aria-labelledby="drawer-right-label">
+            <div className={`fixed bg-[#fdfff9] top-0 right-0 z-50 h-screen p-4 px-6 overflow-y-auto transition-transform translate-x-full  w-80 dark:bg-gray-800 ${open ? 'transform-none' : ''}`} tabIndex="-1" aria-labelledby="drawer-right-label">
                 <h5 className="inline-flex items-center  text-xl font-bold text-gray-700 dark:text-gray-400">{result[0].title}</h5>
                 <h3 className='mb-4'>
                     {result[0].authors.map((item, i) => (

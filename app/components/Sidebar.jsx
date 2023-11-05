@@ -15,14 +15,14 @@ const Sidebar = () => {
       <>
 
          {/* <!-- drawer init and show --> */}
-         <div className="text-center">
+         <div className="text-center fixed z-50">
             <button onClick={() => { setOpen(!open); console.log(open) }} className={`bg-[#eff1ed] absolute top-16 left-0 shadow-md rounded-r-md py-1 transition-transform translate-x-80 ${!open ? 'transform-none' : ''}`}>
                {!open ? <FiChevronRight size={30} /> : <FiChevronLeft size={30} />}
             </button>
          </div>
 
          {/* <!-- drawer component --> */}
-         <div id="drawer-navigation" className={`fixed top-0 left-0 z-40 w-80 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-[#eff1ed] dark:bg-gray-800 ${open ? "transform-none" : ""}`} tabIndex="-1" aria-labelledby="drawer-navigation-label">
+         <div id="drawer-navigation" className={`fixed top-0 left-0 z-50 w-80 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-[#eff1ed] dark:bg-gray-800 ${open ? "transform-none" : ""}`} tabIndex="-1" aria-labelledby="drawer-navigation-label">
             <h5 id="drawer-navigation-label" className="text-[#627257] text-center py-3 text-2xl font-bold  uppercase dark:text-gray-400">
                Chat Bot
             </h5>
