@@ -11,7 +11,7 @@ import axios from 'axios'
 export default function Home() {
   const [inputValue, setInputValue] = useState('');
   const [chatLog, setChatLog] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   const messagesEndRef = useRef(null)
   const scrollToBottom = () => {
