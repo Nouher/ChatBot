@@ -16,7 +16,7 @@ const Sidebar = () => {
 
          {/* <!-- drawer init and show --> */}
          <div className="text-center fixed z-50">
-            <button onClick={() => { setOpen(!open); console.log(open) }} className={`bg-[#eff1ed] absolute top-16 left-0 shadow-md rounded-r-md py-1 transition-transform translate-x-80 ${!open ? 'transform-none' : ''}`}>
+            <button onClick={() => { setOpen(!open); }} className={`bg-[#eff1ed] absolute top-16 left-0 shadow-md rounded-r-md py-1 transition-transform translate-x-80 ${!open ? 'transform-none' : ''}`}>
                {!open ? <FiChevronRight size={30} /> : <FiChevronLeft size={30} />}
             </button>
          </div>
